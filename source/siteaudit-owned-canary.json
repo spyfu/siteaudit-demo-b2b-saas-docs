@@ -1,0 +1,80 @@
+{
+  "id": "p3-canary-b2b-saas-docs",
+  "reviewPacket": "tests/fixtures/owned-canary-fleet.md",
+  "profile": "b2b-saas-docs",
+  "layout": "saas",
+  "surfaceModel": "marketing plus docs hybrid",
+  "provider": "cloudflare-pages",
+  "status": "public",
+  "owner": "ops",
+  "url": "https://p3-canary-b2b-saas-docs.xlpha.com/",
+  "stack": "docs-static",
+  "install": "both",
+  "pageCount": 6,
+  "representativePaths": [
+    "/",
+    "/product/site-migration/",
+    "/docs/deploy-checklist/",
+    "/compare/legacy-audit-tools/"
+  ],
+  "pages": [
+    {
+      "route": "/",
+      "title": "Stacklane Cloud | Migration control plane for site changes",
+      "canonical": "https://p3-canary-b2b-saas-docs.xlpha.com/",
+      "quirks": [
+        "mixed-title-styles"
+      ],
+      "eyebrow": "Release orchestration platform"
+    },
+    {
+      "route": "/product/site-migration/",
+      "title": "Site migration control plane for releases and rollback | Stacklane Cloud",
+      "canonical": "https://p3-canary-b2b-saas-docs.xlpha.com/product/site-migration/",
+      "quirks": [
+        "docs-links-in-marketing"
+      ],
+      "eyebrow": "Product page"
+    },
+    {
+      "route": "/docs/deploy-checklist/",
+      "title": "Deploy checklist - Stacklane docs",
+      "canonical": "https://p3-canary-b2b-saas-docs.xlpha.com/docs/",
+      "quirks": [
+        "docs-hub-canonical",
+        "inconsistent-title-style"
+      ],
+      "eyebrow": "Docs page"
+    },
+    {
+      "route": "/compare/legacy-audit-tools/",
+      "title": "Legacy audit tools compared to Stacklane Cloud",
+      "canonical": "https://p3-canary-b2b-saas-docs.xlpha.com/compare/legacy-audit-tools/",
+      "quirks": [
+        "late-added-compare-page",
+        "reused-claim-language"
+      ],
+      "eyebrow": "Compare page"
+    },
+    {
+      "route": "/pricing/",
+      "title": "Pricing and rollout support | Stacklane Cloud",
+      "canonical": "https://p3-canary-b2b-saas-docs.xlpha.com/pricing/",
+      "quirks": [
+        "pricing-proof-loop",
+        "buyer-route-cluster"
+      ],
+      "eyebrow": "Plans and launch support"
+    },
+    {
+      "route": "/docs/api/auth/",
+      "title": "API auth and rollout tokens - Stacklane docs",
+      "canonical": "https://p3-canary-b2b-saas-docs.xlpha.com/docs/api/auth/",
+      "quirks": [
+        "reference-doc-loop",
+        "docs-to-pricing-links"
+      ],
+      "eyebrow": "API authentication"
+    }
+  ]
+}

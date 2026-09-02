@@ -1,11 +1,15 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "sampleId": "b2b-saas-docs",
   "sourceFixtureId": "p3-canary-b2b-saas-docs",
   "nestedPath": "/product/site-migration/",
   "repository": "spyfu/siteaudit-demo-b2b-saas-docs",
-  "cloudflarePagesProject": "siteaudit-demo-b2b-saas-docs",
-  "productionBranch": "demo-01",
-  "publicUrl": "https://siteaudit-demo-b2b-saas-docs.pages.dev/",
-  "editUrl": "https://github.com/spyfu/siteaudit-demo-b2b-saas-docs/edit/demo-01/siteaudit-head.html"
+  "cloudflarePagesProjectBase": "siteaudit-demo-b2b-saas-docs",
+  "productionBranches": [
+    "demo-01",
+    "demo-02",
+    "demo-03",
+    "demo-04",
+    "demo-05"
+  ]
 }
